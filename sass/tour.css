@@ -1,0 +1,73 @@
+.nav {
+  background-image: url(../images/tour4ngay.jpg);
+  height: 540px;
+  position: relative !important;
+  z-index: -1;
+}
+
+.tet {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.tet span {
+  color: white;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.introduction .introduction-wrap__title {
+  overflow: hidden;
+}
+
+.introduction .introduction-wrap__title span {
+  padding: 20px;
+}
+
+.introduction .introduction-wrap__title p img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 80%;
+  height: 80%;
+}
+
+.introduction .introduction .introduction-wrap__title p::after {
+  display: none;
+}
+
+.hi {
+  padding: 30px;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 0;
+}
+
+.intro {
+  max-width: 1280px;
+  width: 100%;
+  text-align: center;
+  margin: 40px auto;
+}
+/*# sourceMappingURL=tour.css.map */

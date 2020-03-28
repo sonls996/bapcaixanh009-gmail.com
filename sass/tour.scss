@@ -1,0 +1,59 @@
+.nav{
+    background-image: url(../images/tour4ngay.jpg);
+    height: 540px;
+    // height: 100%;
+    position: relative !important;
+    z-index: -1;
+}
+.tet{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    span{
+        color: white;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: bold;
+    }
+}
+.introduction{
+    // margin: 0 0 90px 0;
+    .introduction-wrap__title{
+        overflow: hidden;
+        span{
+            padding: 20px;
+        }
+        p{
+            img{
+                object-fit: cover;
+                width: 80%;
+                height: 80%;
+            }
+        }
+    }
+    .introduction .introduction-wrap__title p::after{
+        display: none;
+    }
+}
+.hi{
+    padding: 30px;
+}
+.main-heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+.intro{
+    max-width: 1280px;
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
